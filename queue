@@ -2,7 +2,7 @@
 
 #include "stdio.h"
 
-void push(int arr[], int i, int n)
+void insert(int arr[], int i, int n)
 {
   int f,r;
   if(f==r==-1){
@@ -20,7 +20,7 @@ void push(int arr[], int i, int n)
   }
 }
 
-void pop(int arr[], int n)
+void delete(int arr[], int n)
 {
   if(f==r==0){
     printf("underflow\n");
